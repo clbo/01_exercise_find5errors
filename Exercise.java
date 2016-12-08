@@ -9,6 +9,12 @@ public class Exercise
 {
     public static void main(String[] args) 
     {
-        System.out.println("Hello World");
+        string grt = greeting();
+        System.out.println(grt);
+    }
+ 
+    private static string greeting()
+    {
+        return "Hello World";
     }
 }
